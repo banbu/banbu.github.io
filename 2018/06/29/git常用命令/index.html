@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="半步">
 <meta property="og:description" content="git init //初始化仓库git status //查看工作区的状态git branch //查看分支git branch -r //查看远程分支git brach -a //查看本地-远程所有分支git checkout 分支名 //切换分支git checkout -b 分支名 //本地创建分支，同时切换到该分支，提交的时候会再服务端创建一个分支git pull //更新服务端代码到本地">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-29T09:21:05.219Z">
+<meta property="og:updated_time" content="2018-07-02T02:53:17.853Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git长用命令简单整理">
 <meta name="twitter:description" content="git init //初始化仓库git status //查看工作区的状态git branch //查看分支git branch -r //查看远程分支git brach -a //查看本地-远程所有分支git checkout 分支名 //切换分支git checkout -b 分支名 //本地创建分支，同时切换到该分支，提交的时候会再服务端创建一个分支git pull //更新服务端代码到本地">
@@ -160,7 +160,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>git init //初始化仓库<br>git status //查看工作区的状态<br>git branch //查看分支<br>git branch -r //查看远程分支<br>git brach -a //查看本地-远程所有分支<br>git checkout 分支名 //切换分支<br>git checkout -b 分支名 //本地创建分支，同时切换到该分支，提交的时候会再服务端创建一个分支<br>git pull //更新服务端代码到本地(检查是否更新完服务端代码)<br>git merge 分支名称 //合并分支到当前分支<br>git push //提交代码到服务端<br>git log //当前分支历史版本<br>git checkout . &amp;&amp; git clean -xdf //删除新增内容</p>
+        <p>git init //初始化仓库<br>git status //查看工作区的状态<br>git branch //查看分支<br>git branch -r //查看远程分支<br>git brach -a //查看本地-远程所有分支<br>git checkout 分支名 //切换分支<br>git checkout -b 分支名 //本地创建分支，同时切换到该分支，提交的时候会再服务端创建一个分支<br>git pull //更新服务端代码到本地(检查是否更新完服务端代码)<br>git merge 分支名称 //合并分支到当前分支<br>git push //提交代码到服务端<br>git log //当前分支历史版本</p>
+<h2 id="git-checkout-amp-amp-git-clean-xdf-删除新增内容"><a href="#git-checkout-amp-amp-git-clean-xdf-删除新增内容" class="headerlink" title="git checkout . &amp;&amp; git clean -xdf //删除新增内容"></a>git checkout . &amp;&amp; git clean -xdf //删除新增内容</h2><p>强制更新服务端代码到本地<br>git fetch –all<br>git reset –hard origin/master  //替换为要拉取的远程分支名称<br>git pull </p>
 
       
     </div>
@@ -178,16 +179,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-  
-    <a href="/2018/06/29/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 
 
