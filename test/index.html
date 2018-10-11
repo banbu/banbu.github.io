@@ -2,8 +2,16 @@
 <html>
 <head>
 	<title></title>
-	</head>
+	<script type="text/javascript" src="https://appx/web-view.min.js"></script>
+	<script type="text/javascript" src="http://www.yunloan.net/asset/js/jquery-1.12.1.min.js"></script>
+</head>
 <body>
 	test
+	<input type="button" class="btn" value="test"/>
+	<script type="text/javascript">
+		$(".btn").click(function(){
+			my.postMessage({name:"测试web-view"});
+		})
+	</script>
 </body>
 </html>
